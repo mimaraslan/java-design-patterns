@@ -3,6 +3,7 @@ package com.mimaraslan;
 import java.util.*;
 
 public class EnumerationIterator implements Iterator {
+	
 	Enumeration enumeration;
 
 	public EnumerationIterator(Enumeration enumeration) {
