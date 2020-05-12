@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_a_f48H2PEeqkv62lN3mRzA">
+  <modelElement href="adapter-pattern-enum.uml#_bRwGkH2PEeqkv62lN3mRzA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_cdBm4H2PEeqkv62lN3mRzA" source="_cdmOoH2PEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern-enum.uml#_bSftcH2PEeqkv62lN3mRzA"/>
+    <stereotypes xmi:id="_cdBm4X2PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="adapter-pattern-enum.uml#_bSiJsH2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_cdBm4n2PEeqkv62lN3mRzA" text=""/>
+    <sourceRole xmi:id="_cdBm432PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="adapter-pattern-enum.uml#_bSftcX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_cdBm5H2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_cdBm5X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_cdBm5n2PEeqkv62lN3mRzA" aggregationKind="NONE" name="enumeration" navigable="true">
+      <modelElement href="adapter-pattern-enum.uml#_bSaN4H2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_cdBm532PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_cdBm6H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cdmOoH2PEeqkv62lN3mRzA" name="EnumerationIterator" associationsOut="_cdBm4H2PEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern-enum.uml#_bR20QH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_cdm1sH2PEeqkv62lN3mRzA" position="11.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_cdm1sX2PEeqkv62lN3mRzA" label="+"/>
+    <attributes xmi:id="_cdm1sn2PEeqkv62lN3mRzA" name="enumeration">
+      <modelElement href="adapter-pattern-enum.uml#_bSaN4H2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_cdm1s32PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="adapter-pattern-enum.uml#_bSbcAH2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_cdm1tH2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_cdm1tX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_cdm1tn2PEeqkv62lN3mRzA" name="Enumeration">
+        <modelElement href="adapter-pattern-enum.uml#_bSUHQH2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_cdm1t32PEeqkv62lN3mRzA" name="hasNext">
+      <modelElement href="adapter-pattern-enum.uml#_bR7swH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_cdm1uH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_cdm1uX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cdm1un2PEeqkv62lN3mRzA">
+        <modelElement href="adapter-pattern-enum.uml#_bR7swX2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_cdm1u32PEeqkv62lN3mRzA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_cdm1vH2PEeqkv62lN3mRzA" name="next">
+      <modelElement href="adapter-pattern-enum.uml#_bR8T0H2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_cdm1vX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_cdm1vn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cdm1v32PEeqkv62lN3mRzA">
+        <modelElement href="adapter-pattern-enum.uml#_bSZm0H2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_cdm1wH2PEeqkv62lN3mRzA" name="Object">
+          <modelElement href="adapter-pattern-enum.uml#_bSXxoX2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_cdm1wX2PEeqkv62lN3mRzA" name="remove">
+      <modelElement href="adapter-pattern-enum.uml#_bR9h8H2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_cdm1wn2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_cdm1w32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_cdm1xH2PEeqkv62lN3mRzA" name="EnumerationIterator">
+      <modelElement href="adapter-pattern-enum.uml#_bSV8cH2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_cdm1xX2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_cdm1xn2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_cdm1x32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cdm1yH2PEeqkv62lN3mRzA">
+        <modelElement href="adapter-pattern-enum.uml#_bSWjgn2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_cdm1yX2PEeqkv62lN3mRzA" name="EnumerationIterator">
+          <modelElement href="adapter-pattern-enum.uml#_bR20QH2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_cdm1yn2PEeqkv62lN3mRzA" name="enumeration">
+        <modelElement href="adapter-pattern-enum.uml#_bSV8cX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_cdm1y32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_cdm1zH2PEeqkv62lN3mRzA" name="Enumeration">
+          <modelElement href="adapter-pattern-enum.uml#_bSUHQH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ceMEgH2PEeqkv62lN3mRzA" name="EnumerationIteratorTestDrive">
+    <modelElement href="adapter-pattern-enum.uml#_bSAlQH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_ceMEgX2PEeqkv62lN3mRzA" position="15.0,228.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ceMEgn2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_ceMEg32PEeqkv62lN3mRzA" name="main" staticOperation="true">
+      <modelElement href="adapter-pattern-enum.uml#_bSBzYH2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_ceMEhH2PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="adapter-pattern-enum.uml#_bSDBgH2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_ceMEhX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_ceMEhn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ceMEh32PEeqkv62lN3mRzA" name="args">
+        <modelElement href="adapter-pattern-enum.uml#_bSCacH2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_ceMEiH2PEeqkv62lN3mRzA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ceMEiX2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

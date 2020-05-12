@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_vLIEwH2PEeqkv62lN3mRzA" name="facade_pattern">
+    <eAnnotations xmi:id="_vUVrIH2PEeqkv62lN3mRzA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_vUVrIX2PEeqkv62lN3mRzA" source="codegen">
+        <details xmi:id="_vUVrIn2PEeqkv62lN3mRzA" key="codegenDirectory" value="/facade-pattern/src"/>
+        <details xmi:id="_vnZxEH2PEeqkv62lN3mRzA" key="AssociatedSourceCode" value="/facade-pattern/src/com/mimaraslan/hometheater/Screen.java;524694377/1;/facade-pattern/src/com/mimaraslan/hometheater/CdPlayer.java;3562908875/1;/facade-pattern/src/com/mimaraslan/hometheater/DvdPlayer.java;2472450543/1;/facade-pattern/src/com/mimaraslan/hometheater/HomeTheaterFacade.java;2068746156/1;/facade-pattern/src/com/mimaraslan/hometheater/HomeTheaterTestDrive.java;1085628101/1;/facade-pattern/src/com/mimaraslan/hometheater/PopcornPopper.java;2632199620/1;/facade-pattern/src/com/mimaraslan/hometheater/Projector.java;3891473281/1;/facade-pattern/src/com/mimaraslan/hometheater/Amplifier.java;3075923828/1;/facade-pattern/src/com/mimaraslan/hometheater/TheaterLights.java;4219733917/1;/facade-pattern/src/com/mimaraslan/hometheater/Tuner.java;845895536/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_vfwQ8H2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_vfw4AH2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_vfw4AX2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_vfw4An2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_vfw4A32PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_vfw4BH2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_vfxfEH2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_vfxfEX2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_vfxfEn2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vfOFcH2PEeqkv62lN3mRzA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_vfOsgH2PEeqkv62lN3mRzA" name="mimaraslan">
+        <packagedElement xmi:type="uml:Package" xmi:id="_vfP6oH2PEeqkv62lN3mRzA" name="hometheater">
+          <packagedElement xmi:type="uml:Class" xmi:id="_vfvC0H2PEeqkv62lN3mRzA" name="Screen">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vi_yMH2PEeqkv62lN3mRzA" name="Screen" specification="_vfyGIH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjAZQH2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vjAZQX2PEeqkv62lN3mRzA" type="_vfvC0H2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;Screen:&quot; + string);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjAZQn2PEeqkv62lN3mRzA" name="down" specification="_vfzUQH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Screen down&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjAZQ32PEeqkv62lN3mRzA" name="up" specification="_vfz7UH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Screen up&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vfyGIH2PEeqkv62lN3mRzA" name="Screen" method="_vi_yMH2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_vfytMH2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_vfytMX2PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_vfyGIX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vfytMn2PEeqkv62lN3mRzA" type="_vfvC0H2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vfzUQH2PEeqkv62lN3mRzA" name="down" method="_vjAZQn2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vfz7UH2PEeqkv62lN3mRzA" name="up" method="_vjAZQ32PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vf0iYH2PEeqkv62lN3mRzA" name="CdPlayer">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjBAUH2PEeqkv62lN3mRzA" name="CdPlayer" specification="_vinXsH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjBAUX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vjBAUn2PEeqkv62lN3mRzA" name="amp" type="_vgTDgH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjBAU32PEeqkv62lN3mRzA" type="_vf0iYH2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;CdPlayer:&quot; + string + &quot; Amplifier:&quot; + amp);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjBAVH2PEeqkv62lN3mRzA" name="on" specification="_vf1wgH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;CdPlayer on&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjBAVX2PEeqkv62lN3mRzA" name="off" specification="_vf1wgX2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;CdPlayer off&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjBnYH2PEeqkv62lN3mRzA" name="play" specification="_vf2XkH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjBnYX2PEeqkv62lN3mRzA" name="cdTitle">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;CdPlayer play&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjBnYn2PEeqkv62lN3mRzA" name="eject" specification="_vf2-oX2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;CdPlayer eject&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vf1wgH2PEeqkv62lN3mRzA" name="on" method="_vjBAVH2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vf1wgX2PEeqkv62lN3mRzA" name="off" method="_vjBAVX2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vf2XkH2PEeqkv62lN3mRzA" name="play" method="_vjBnYH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vf2-oH2PEeqkv62lN3mRzA" name="cdTitle">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vf2-oX2PEeqkv62lN3mRzA" name="eject" method="_vjBnYn2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vinXsH2PEeqkv62lN3mRzA" name="CdPlayer" method="_vjBAUH2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_vin-wH2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_vin-wX2PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_vinXsX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vinXsn2PEeqkv62lN3mRzA" name="amp" type="_vgTDgH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vin-wn2PEeqkv62lN3mRzA" type="_vf0iYH2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vf4MwH2PEeqkv62lN3mRzA" name="DvdPlayer">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjCOcH2PEeqkv62lN3mRzA" name="DvdPlayer" specification="_vipM4H2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjCOcX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vjCOcn2PEeqkv62lN3mRzA" name="amp" type="_vgTDgH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjCOc32PEeqkv62lN3mRzA" type="_vf4MwH2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;DvdPlayer:&quot; + string + &quot; Amplifier:&quot; + amp);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjCOdH2PEeqkv62lN3mRzA" name="play" specification="_vf6pAH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjCOdX2PEeqkv62lN3mRzA" name="movie">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;DvdPlayer play&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjCOdn2PEeqkv62lN3mRzA" name="on" specification="_vf6pAn2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;DvdPlayer on&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjC1gH2PEeqkv62lN3mRzA" name="stop" specification="_vf7QEH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;DvdPlayer stop&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjC1gX2PEeqkv62lN3mRzA" name="eject" specification="_vf7QEX2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;DvdPlayer eject&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjC1gn2PEeqkv62lN3mRzA" name="off" specification="_vf73IH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;DvdPlayer off&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vf6pAH2PEeqkv62lN3mRzA" name="play" method="_vjCOdH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vf6pAX2PEeqkv62lN3mRzA" name="movie">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vf6pAn2PEeqkv62lN3mRzA" name="on" method="_vjCOdn2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vf7QEH2PEeqkv62lN3mRzA" name="stop" method="_vjC1gH2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vf7QEX2PEeqkv62lN3mRzA" name="eject" method="_vjC1gX2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vf73IH2PEeqkv62lN3mRzA" name="off" method="_vjC1gn2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vipM4H2PEeqkv62lN3mRzA" name="DvdPlayer" method="_vjCOcH2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_vipM432PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_vipz8H2PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_vipM4X2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vipM4n2PEeqkv62lN3mRzA" name="amp" type="_vgTDgH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vipz8X2PEeqkv62lN3mRzA" type="_vf4MwH2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vf9FQH2PEeqkv62lN3mRzA" name="HomeTheaterFacade">
+            <ownedAttribute xmi:id="_vi3PUH2PEeqkv62lN3mRzA" name="amp" visibility="package" type="_vgTDgH2PEeqkv62lN3mRzA" association="_vjPCwH2PEeqkv62lN3mRzA"/>
+            <ownedAttribute xmi:id="_vi4dcH2PEeqkv62lN3mRzA" name="tuner" visibility="package" type="_vgcNcH2PEeqkv62lN3mRzA" association="_vjQ38H2PEeqkv62lN3mRzA"/>
+            <ownedAttribute xmi:id="_vi5EgX2PEeqkv62lN3mRzA" name="dvd" visibility="package" type="_vf4MwH2PEeqkv62lN3mRzA" association="_vjStIH2PEeqkv62lN3mRzA"/>
+            <ownedAttribute xmi:id="_vi6SoH2PEeqkv62lN3mRzA" name="cd" visibility="package" type="_vf0iYH2PEeqkv62lN3mRzA" association="_vjT7QX2PEeqkv62lN3mRzA"/>
+            <ownedAttribute xmi:id="_vi65sX2PEeqkv62lN3mRzA" name="projector" visibility="package" type="_vgQAMH2PEeqkv62lN3mRzA" association="_vjVJYX2PEeqkv62lN3mRzA"/>
+            <ownedAttribute xmi:id="_vi8H0H2PEeqkv62lN3mRzA" name="lights" visibility="package" type="_vgZKIH2PEeqkv62lN3mRzA" association="_vjW-kX2PEeqkv62lN3mRzA"/>
+            <ownedAttribute xmi:id="_vi9V8H2PEeqkv62lN3mRzA" name="screen" visibility="package" type="_vfvC0H2PEeqkv62lN3mRzA" association="_vjXloX2PEeqkv62lN3mRzA"/>
+            <ownedAttribute xmi:id="_vi99AH2PEeqkv62lN3mRzA" name="popper" visibility="package" type="_vgMV0H2PEeqkv62lN3mRzA" association="_vjYzwX2PEeqkv62lN3mRzA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjDckH2PEeqkv62lN3mRzA" name="HomeTheaterFacade" specification="_virpIH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjDckX2PEeqkv62lN3mRzA" name="amp" type="_vgTDgH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjDckn2PEeqkv62lN3mRzA" name="tuner" type="_vgcNcH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjDck32PEeqkv62lN3mRzA" name="dvd" type="_vf4MwH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjDclH2PEeqkv62lN3mRzA" name="cd" type="_vf0iYH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjDclX2PEeqkv62lN3mRzA" name="projector" type="_vgQAMH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjDcln2PEeqkv62lN3mRzA" name="screen" type="_vfvC0H2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjDcl32PEeqkv62lN3mRzA" name="lights" type="_vgZKIH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjDcmH2PEeqkv62lN3mRzA" name="popper" type="_vgMV0H2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjDcmX2PEeqkv62lN3mRzA" type="_vf9FQH2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>this.amp = amp;
+		this.tuner = tuner;
+		this.dvd = dvd;
+		this.cd = cd;
+		this.projector = projector;
+		this.screen = screen;
+		this.lights = lights;
+		this.popper = popper;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjDcmn2PEeqkv62lN3mRzA" name="watchMovie" specification="_vgAvoH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjDcm32PEeqkv62lN3mRzA" name="movie">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;Get ready to watch a movie...&quot;);
+		popper.on();
+		popper.pop();
+		lights.dim(10);
+		screen.down();
+		projector.on();
+		projector.wideScreenMode();
+		amp.on();
+		amp.setDvd(dvd);
+		amp.setSurroundSound();
+		amp.setVolume(5);
+		dvd.on();
+		dvd.play(movie);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjEDoH2PEeqkv62lN3mRzA" name="endMovie" specification="_vgBWsX2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Shutting movie theater down...&quot;);
+		popper.off();
+		lights.on();
+		screen.up();
+		projector.off();
+		amp.off();
+		dvd.stop();
+		dvd.eject();
+		dvd.off();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjEDoX2PEeqkv62lN3mRzA" name="listenToCd" specification="_vgB9wH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjEDon2PEeqkv62lN3mRzA" name="cdTitle">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;Get ready for an audiopile experence...&quot;);
+		lights.on();
+		amp.on();
+		amp.setVolume(5);
+		amp.setCd(cd);
+		amp.setStereoSound();
+		cd.on();
+		cd.play(cdTitle);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjEDo32PEeqkv62lN3mRzA" name="endCd" specification="_vgCk0H2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Shutting down CD...&quot;);
+		amp.off();
+		amp.setCd(cd);
+		cd.eject();
+		cd.off();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjEqsH2PEeqkv62lN3mRzA" name="listenToRadio" specification="_vgCk0X2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjEqsX2PEeqkv62lN3mRzA" name="frequency">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;Tuning in the airwaves...&quot;);
+		tuner.on();
+		tuner.setFrequency(frequency);
+		amp.on();
+		amp.setVolume(5);
+		amp.setTuner(tuner);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjEqsn2PEeqkv62lN3mRzA" name="endRadio" specification="_vgDL4H2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Shutting down the tuner...&quot;);
+		tuner.off();
+		amp.off();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vgAvoH2PEeqkv62lN3mRzA" name="watchMovie" method="_vjDcmn2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vgBWsH2PEeqkv62lN3mRzA" name="movie">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vgBWsX2PEeqkv62lN3mRzA" name="endMovie" method="_vjEDoH2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgB9wH2PEeqkv62lN3mRzA" name="listenToCd" method="_vjEDoX2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vgB9wX2PEeqkv62lN3mRzA" name="cdTitle">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vgCk0H2PEeqkv62lN3mRzA" name="endCd" method="_vjEDo32PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgCk0X2PEeqkv62lN3mRzA" name="listenToRadio" method="_vjEqsH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vgCk0n2PEeqkv62lN3mRzA" name="frequency">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vgDL4H2PEeqkv62lN3mRzA" name="endRadio" method="_vjEqsn2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_virpIH2PEeqkv62lN3mRzA" name="HomeTheaterFacade" method="_vjDckH2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_viteUH2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_viteUX2PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_visQMH2PEeqkv62lN3mRzA" name="amp" type="_vgTDgH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_visQMX2PEeqkv62lN3mRzA" name="tuner" type="_vgcNcH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_visQMn2PEeqkv62lN3mRzA" name="dvd" type="_vf4MwH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vis3QH2PEeqkv62lN3mRzA" name="cd" type="_vf0iYH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vis3QX2PEeqkv62lN3mRzA" name="projector" type="_vgQAMH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vis3Qn2PEeqkv62lN3mRzA" name="screen" type="_vfvC0H2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vis3Q32PEeqkv62lN3mRzA" name="lights" type="_vgZKIH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vis3RH2PEeqkv62lN3mRzA" name="popper" type="_vgMV0H2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_viteUn2PEeqkv62lN3mRzA" type="_vf9FQH2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vgKgoH2PEeqkv62lN3mRzA" name="HomeTheaterTestDrive">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjFRwH2PEeqkv62lN3mRzA" name="main" specification="_vgLuwH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjFRwX2PEeqkv62lN3mRzA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vjFRwn2PEeqkv62lN3mRzA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>Amplifier amp = new Amplifier(&quot;Top-O-Line Amplifier&quot;);
+		Tuner tuner = new Tuner(&quot;Top-O-Line AM/FM Tuner&quot;, amp);
+		DvdPlayer dvd = new DvdPlayer(&quot;Top-O-Line DVD Player&quot;, amp);
+		CdPlayer cd = new CdPlayer(&quot;Top-O-Line CD Player&quot;, amp);
+		Projector projector = new Projector(&quot;Top-O-Line Projector&quot;, dvd);
+		TheaterLights lights = new TheaterLights(&quot;Theater Ceiling Lights&quot;);
+		Screen screen = new Screen(&quot;Theater Screen&quot;);
+		PopcornPopper popper = new PopcornPopper(&quot;Popcorn Popper&quot;);
+
+		HomeTheaterFacade homeTheater = new HomeTheaterFacade(amp, tuner, dvd, cd, projector, screen, lights, popper);
+
+		homeTheater.watchMovie(&quot;Raiders of the Lost Ark&quot;);
+		homeTheater.endMovie();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vgLuwH2PEeqkv62lN3mRzA" name="main" isStatic="true" method="_vjFRwH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vgLuwX2PEeqkv62lN3mRzA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vgLuwn2PEeqkv62lN3mRzA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vgMV0H2PEeqkv62lN3mRzA" name="PopcornPopper">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjF40H2PEeqkv62lN3mRzA" name="PopcornPopper" specification="_vgOLAH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjF40X2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vjF40n2PEeqkv62lN3mRzA" type="_vgMV0H2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;PopcornPopper:&quot; + string);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjF4032PEeqkv62lN3mRzA" name="on" specification="_vgOyEH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;PopcornPopper on&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjF41H2PEeqkv62lN3mRzA" name="pop" specification="_vgOyEX2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;PopcornPopper pop&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjF41X2PEeqkv62lN3mRzA" name="off" specification="_vgPZIH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;PopcornPopper off&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vgOLAH2PEeqkv62lN3mRzA" name="PopcornPopper" method="_vjF40H2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_vgOLAn2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_vgOLA32PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_vgOLAX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vgOLBH2PEeqkv62lN3mRzA" type="_vgMV0H2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vgOyEH2PEeqkv62lN3mRzA" name="on" method="_vjF4032PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgOyEX2PEeqkv62lN3mRzA" name="pop" method="_vjF41H2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgPZIH2PEeqkv62lN3mRzA" name="off" method="_vjF41X2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vgQAMH2PEeqkv62lN3mRzA" name="Projector">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjGf4H2PEeqkv62lN3mRzA" name="Projector" specification="_viv6kH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjGf4X2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vjGf4n2PEeqkv62lN3mRzA" name="dvd" type="_vf4MwH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjGf432PEeqkv62lN3mRzA" type="_vgQAMH2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;Projector: &quot; + string + &quot; DvdPlayer:&quot; + dvd);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjGf5H2PEeqkv62lN3mRzA" name="on" specification="_vgROUH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Projector on&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjGf5X2PEeqkv62lN3mRzA" name="wideScreenMode" specification="_vgR1YH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Projector wideScreenMode&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjHG8H2PEeqkv62lN3mRzA" name="off" specification="_vgR1YX2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Projector off&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vgROUH2PEeqkv62lN3mRzA" name="on" method="_vjGf5H2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgR1YH2PEeqkv62lN3mRzA" name="wideScreenMode" method="_vjGf5X2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgR1YX2PEeqkv62lN3mRzA" name="off" method="_vjHG8H2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_viv6kH2PEeqkv62lN3mRzA" name="Projector" method="_vjGf4H2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_viwhoH2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_viwhoX2PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_viv6kX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_viv6kn2PEeqkv62lN3mRzA" name="dvd" type="_vf4MwH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_viwhon2PEeqkv62lN3mRzA" type="_vgQAMH2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vgTDgH2PEeqkv62lN3mRzA" name="Amplifier">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjHG8X2PEeqkv62lN3mRzA" name="Amplifier" specification="_vgURoH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjHG8n2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vjHG832PEeqkv62lN3mRzA" type="_vgTDgH2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier:&quot; + string);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjHG9H2PEeqkv62lN3mRzA" name="on" specification="_vgU4sX2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier on&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjHuAH2PEeqkv62lN3mRzA" name="setDvd" specification="_vixIsH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjHuAX2PEeqkv62lN3mRzA" name="dvd" type="_vf4MwH2PEeqkv62lN3mRzA"/>
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier setDvd: &quot; + dvd);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjHuAn2PEeqkv62lN3mRzA" name="setSurroundSound" specification="_vgVfwH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier setSurroundSound&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjHuA32PEeqkv62lN3mRzA" name="setVolume" specification="_vgWG0H2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjHuBH2PEeqkv62lN3mRzA" name="i">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier setVolume: &quot; + i);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjHuBX2PEeqkv62lN3mRzA" name="off" specification="_vgWG0n2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier off&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjIVEH2PEeqkv62lN3mRzA" name="setCd" specification="_vixvwH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjIVEX2PEeqkv62lN3mRzA" name="cd" type="_vf0iYH2PEeqkv62lN3mRzA"/>
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier setCd:&quot; + cd);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjIVEn2PEeqkv62lN3mRzA" name="setStereoSound" specification="_vgWt4H2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier setStereoSound&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjIVE32PEeqkv62lN3mRzA" name="setTuner" specification="_viyW0H2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjIVFH2PEeqkv62lN3mRzA" name="tuner" type="_vgcNcH2PEeqkv62lN3mRzA"/>
+              <language>java</language>
+              <body>System.out.println(&quot;Amplifier setTuner:&quot; + tuner);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vgURoH2PEeqkv62lN3mRzA" name="Amplifier" method="_vjHG8X2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_vgURon2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_vgURo32PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_vgURoX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vgU4sH2PEeqkv62lN3mRzA" type="_vgTDgH2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vgU4sX2PEeqkv62lN3mRzA" name="on" method="_vjHG9H2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgVfwH2PEeqkv62lN3mRzA" name="setSurroundSound" method="_vjHuAn2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgWG0H2PEeqkv62lN3mRzA" name="setVolume" method="_vjHuA32PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vgWG0X2PEeqkv62lN3mRzA" name="i">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vgWG0n2PEeqkv62lN3mRzA" name="off" method="_vjHuBX2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgWt4H2PEeqkv62lN3mRzA" name="setStereoSound" method="_vjIVEn2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vixIsH2PEeqkv62lN3mRzA" name="setDvd" method="_vjHuAH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vixIsX2PEeqkv62lN3mRzA" name="dvd" type="_vf4MwH2PEeqkv62lN3mRzA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vixvwH2PEeqkv62lN3mRzA" name="setCd" method="_vjIVEH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vixvwX2PEeqkv62lN3mRzA" name="cd" type="_vf0iYH2PEeqkv62lN3mRzA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_viyW0H2PEeqkv62lN3mRzA" name="setTuner" method="_vjIVE32PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_viyW0X2PEeqkv62lN3mRzA" name="tuner" type="_vgcNcH2PEeqkv62lN3mRzA"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vgZKIH2PEeqkv62lN3mRzA" name="TheaterLights">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjI8IH2PEeqkv62lN3mRzA" name="TheaterLights" specification="_vgaYQH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjI8IX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vjI8In2PEeqkv62lN3mRzA" type="_vgZKIH2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;TheaterLights:&quot; + string);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjI8I32PEeqkv62lN3mRzA" name="dim" specification="_vga_UX2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjI8JH2PEeqkv62lN3mRzA" name="i">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;TheaterLights dim&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjJjMH2PEeqkv62lN3mRzA" name="on" specification="_vgbmYH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;TheaterLights on&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vgaYQH2PEeqkv62lN3mRzA" name="TheaterLights" method="_vjI8IH2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_vgaYQn2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_vgaYQ32PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_vgaYQX2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vga_UH2PEeqkv62lN3mRzA" type="_vgZKIH2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vga_UX2PEeqkv62lN3mRzA" name="dim" method="_vjI8I32PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vga_Un2PEeqkv62lN3mRzA" name="i">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vgbmYH2PEeqkv62lN3mRzA" name="on" method="_vjJjMH2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vgcNcH2PEeqkv62lN3mRzA" name="Tuner">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjJjMX2PEeqkv62lN3mRzA" name="Tuner" specification="_vizk8H2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjJjMn2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vjJjM32PEeqkv62lN3mRzA" name="amp" type="_vgTDgH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vjJjNH2PEeqkv62lN3mRzA" type="_vgcNcH2PEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>System.out.println(&quot;Tuner:&quot; + string + &quot; Amplifier:&quot; + amp);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjJjNX2PEeqkv62lN3mRzA" name="on" specification="_vgdbkH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Tuner on&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjKKQH2PEeqkv62lN3mRzA" name="setFrequency" specification="_vgdbkX2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vjKKQX2PEeqkv62lN3mRzA" name="frequency">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;Tuner setFrequency:&quot; + frequency);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vjKKQn2PEeqkv62lN3mRzA" name="off" specification="_vgeCoH2PEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Tuner off&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_vgdbkH2PEeqkv62lN3mRzA" name="on" method="_vjJjNX2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vgdbkX2PEeqkv62lN3mRzA" name="setFrequency" method="_vjKKQH2PEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_vgdbkn2PEeqkv62lN3mRzA" name="frequency">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_vgeCoH2PEeqkv62lN3mRzA" name="off" method="_vjKKQn2PEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_vizk8H2PEeqkv62lN3mRzA" name="Tuner" method="_vjJjMX2PEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_vizk832PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_vizk9H2PEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_vizk8X2PEeqkv62lN3mRzA" name="string">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_vizk8n2PEeqkv62lN3mRzA" name="amp" type="_vgTDgH2PEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_vizk9X2PEeqkv62lN3mRzA" type="_vgcNcH2PEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vjPCwH2PEeqkv62lN3mRzA" name="" memberEnd="_vjPCwX2PEeqkv62lN3mRzA _vi3PUH2PEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_vjPCwX2PEeqkv62lN3mRzA" name="" type="_vf9FQH2PEeqkv62lN3mRzA" association="_vjPCwH2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vjQ38H2PEeqkv62lN3mRzA" name="" memberEnd="_vjQ38X2PEeqkv62lN3mRzA _vi4dcH2PEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_vjQ38X2PEeqkv62lN3mRzA" name="" type="_vf9FQH2PEeqkv62lN3mRzA" association="_vjQ38H2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vjStIH2PEeqkv62lN3mRzA" name="" memberEnd="_vjStIX2PEeqkv62lN3mRzA _vi5EgX2PEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_vjStIX2PEeqkv62lN3mRzA" name="" type="_vf9FQH2PEeqkv62lN3mRzA" association="_vjStIH2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vjT7QX2PEeqkv62lN3mRzA" name="" memberEnd="_vjT7Qn2PEeqkv62lN3mRzA _vi6SoH2PEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_vjT7Qn2PEeqkv62lN3mRzA" name="" type="_vf9FQH2PEeqkv62lN3mRzA" association="_vjT7QX2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vjVJYX2PEeqkv62lN3mRzA" name="" memberEnd="_vjVJYn2PEeqkv62lN3mRzA _vi65sX2PEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_vjVJYn2PEeqkv62lN3mRzA" name="" type="_vf9FQH2PEeqkv62lN3mRzA" association="_vjVJYX2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vjW-kX2PEeqkv62lN3mRzA" name="" memberEnd="_vjW-kn2PEeqkv62lN3mRzA _vi8H0H2PEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_vjW-kn2PEeqkv62lN3mRzA" name="" type="_vf9FQH2PEeqkv62lN3mRzA" association="_vjW-kX2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vjXloX2PEeqkv62lN3mRzA" name="" memberEnd="_vjXlon2PEeqkv62lN3mRzA _vi9V8H2PEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_vjXlon2PEeqkv62lN3mRzA" name="" type="_vf9FQH2PEeqkv62lN3mRzA" association="_vjXloX2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vjYzwX2PEeqkv62lN3mRzA" name="" memberEnd="_vjYzwn2PEeqkv62lN3mRzA _vi99AH2PEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_vjYzwn2PEeqkv62lN3mRzA" name="" type="_vf9FQH2PEeqkv62lN3mRzA" association="_vjYzwX2PEeqkv62lN3mRzA"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_vUWSMH2PEeqkv62lN3mRzA">
+      <eAnnotations xmi:id="_vUW5QH2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_vUXgUH2PEeqkv62lN3mRzA" base_Package="_vLIEwH2PEeqkv62lN3mRzA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vi32YH2PEeqkv62lN3mRzA" base_Element="_vi3PUH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vi5EgH2PEeqkv62lN3mRzA" base_Element="_vi4dcH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vi5rkH2PEeqkv62lN3mRzA" base_Element="_vi5EgX2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vi65sH2PEeqkv62lN3mRzA" base_Element="_vi6SoH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vi7gwH2PEeqkv62lN3mRzA" base_Element="_vi65sX2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vi8u4H2PEeqkv62lN3mRzA" base_Element="_vi8H0H2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vi9V8X2PEeqkv62lN3mRzA" base_Element="_vi9V8H2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vi99AX2PEeqkv62lN3mRzA" base_Element="_vi99AH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_vjQQ4H2PEeqkv62lN3mRzA" base_Element="_vjPCwH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_vjSGEH2PEeqkv62lN3mRzA" base_Element="_vjQ38H2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_vjT7QH2PEeqkv62lN3mRzA" base_Element="_vjStIH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_vjVJYH2PEeqkv62lN3mRzA" base_Element="_vjT7QX2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_vjW-kH2PEeqkv62lN3mRzA" base_Element="_vjVJYX2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_vjXloH2PEeqkv62lN3mRzA" base_Element="_vjW-kX2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_vjYzwH2PEeqkv62lN3mRzA" base_Element="_vjXloX2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_vjZa0H2PEeqkv62lN3mRzA" base_Element="_vjYzwX2PEeqkv62lN3mRzA"/>
+</xmi:XMI>

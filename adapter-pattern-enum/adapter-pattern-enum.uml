@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_a9ML0H2PEeqkv62lN3mRzA" name="adapter_pattern_enum">
+    <eAnnotations xmi:id="_bMkEkH2PEeqkv62lN3mRzA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_bMkroH2PEeqkv62lN3mRzA" source="codegen">
+        <details xmi:id="_bMkroX2PEeqkv62lN3mRzA" key="codegenDirectory" value="/adapter-pattern-enum/src"/>
+        <details xmi:id="_bVIKsH2PEeqkv62lN3mRzA" key="AssociatedSourceCode" value="/adapter-pattern-enum/src/com/mimaraslan/EnumerationIterator.java;1233939182/1;/adapter-pattern-enum/src/com/mimaraslan/EnumerationIteratorTestDrive.java;3309571976/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_bR4pcH2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_bR4pcX2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_bR4pcn2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_bR5QgH2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_bR5QgX2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_bR5Qgn2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_bR5Qg32PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_bR5QhH2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_bR53kH2PEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bRtDQH2PEeqkv62lN3mRzA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_bRwGkH2PEeqkv62lN3mRzA" name="mimaraslan">
+        <packagedElement xmi:type="uml:Class" xmi:id="_bR20QH2PEeqkv62lN3mRzA" name="EnumerationIterator">
+          <ownedAttribute xmi:id="_bSaN4H2PEeqkv62lN3mRzA" name="enumeration" visibility="package" type="_bSUHQH2PEeqkv62lN3mRzA" association="_bSftcH2PEeqkv62lN3mRzA"/>
+          <interfaceRealization xmi:id="_bSS5IH2PEeqkv62lN3mRzA" client="_bR20QH2PEeqkv62lN3mRzA" supplier="_bSQc4H2PEeqkv62lN3mRzA" contract="_bSQc4H2PEeqkv62lN3mRzA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bScqIH2PEeqkv62lN3mRzA" name="EnumerationIterator" specification="_bSV8cH2PEeqkv62lN3mRzA">
+            <ownedParameter xmi:id="_bScqIX2PEeqkv62lN3mRzA" name="enumeration" type="_bSUHQH2PEeqkv62lN3mRzA"/>
+            <ownedParameter xmi:id="_bScqIn2PEeqkv62lN3mRzA" type="_bR20QH2PEeqkv62lN3mRzA" direction="return"/>
+            <language>java</language>
+            <body>this.enumeration = enumeration;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bSdRMH2PEeqkv62lN3mRzA" name="hasNext" specification="_bR7swH2PEeqkv62lN3mRzA">
+            <ownedParameter xmi:id="_bSdRMX2PEeqkv62lN3mRzA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return enumeration.hasMoreElements();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bSdRMn2PEeqkv62lN3mRzA" name="next" specification="_bR8T0H2PEeqkv62lN3mRzA">
+            <ownedParameter xmi:id="_bSdRM32PEeqkv62lN3mRzA" type="_bSXxoX2PEeqkv62lN3mRzA" direction="return"/>
+            <language>java</language>
+            <body>return enumeration.nextElement();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bSd4QH2PEeqkv62lN3mRzA" name="remove" specification="_bR9h8H2PEeqkv62lN3mRzA">
+            <language>java</language>
+            <body>throw new UnsupportedOperationException();
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_bR7swH2PEeqkv62lN3mRzA" name="hasNext" method="_bSdRMH2PEeqkv62lN3mRzA">
+            <ownedParameter xmi:id="_bR7swX2PEeqkv62lN3mRzA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_bR8T0H2PEeqkv62lN3mRzA" name="next" method="_bSdRMn2PEeqkv62lN3mRzA">
+            <ownedParameter xmi:id="_bSZm0H2PEeqkv62lN3mRzA" type="_bSXxoX2PEeqkv62lN3mRzA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_bR9h8H2PEeqkv62lN3mRzA" name="remove" method="_bSd4QH2PEeqkv62lN3mRzA"/>
+          <ownedOperation xmi:id="_bSV8cH2PEeqkv62lN3mRzA" name="EnumerationIterator" method="_bScqIH2PEeqkv62lN3mRzA">
+            <eAnnotations xmi:id="_bSWjgH2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_bSWjgX2PEeqkv62lN3mRzA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_bSV8cX2PEeqkv62lN3mRzA" name="enumeration" type="_bSUHQH2PEeqkv62lN3mRzA"/>
+            <ownedParameter xmi:id="_bSWjgn2PEeqkv62lN3mRzA" type="_bR20QH2PEeqkv62lN3mRzA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_bSAlQH2PEeqkv62lN3mRzA" name="EnumerationIteratorTestDrive">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bSd4QX2PEeqkv62lN3mRzA" name="main" specification="_bSBzYH2PEeqkv62lN3mRzA">
+            <ownedParameter xmi:id="_bSd4Qn2PEeqkv62lN3mRzA" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bSd4Q32PEeqkv62lN3mRzA" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Vector v = new Vector(Arrays.asList(args));
+		Iterator iterator = new EnumerationIterator(v.elements());
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_bSBzYH2PEeqkv62lN3mRzA" name="main" isStatic="true" method="_bSd4QX2PEeqkv62lN3mRzA">
+            <ownedParameter xmi:id="_bSCacH2PEeqkv62lN3mRzA" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bSDBgX2PEeqkv62lN3mRzA" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_bSftcH2PEeqkv62lN3mRzA" name="" memberEnd="_bSftcX2PEeqkv62lN3mRzA _bSaN4H2PEeqkv62lN3mRzA">
+          <ownedEnd xmi:id="_bSftcX2PEeqkv62lN3mRzA" name="" type="_bR20QH2PEeqkv62lN3mRzA" association="_bSftcH2PEeqkv62lN3mRzA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bRtqUH2PEeqkv62lN3mRzA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_bRtqUX2PEeqkv62lN3mRzA" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_bSQc4H2PEeqkv62lN3mRzA" name="Iterator"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_bSUHQH2PEeqkv62lN3mRzA" name="Enumeration"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_bSXxoH2PEeqkv62lN3mRzA" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_bSXxoX2PEeqkv62lN3mRzA" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_bMl5wH2PEeqkv62lN3mRzA">
+      <eAnnotations xmi:id="_bMmg0H2PEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_bMnH4H2PEeqkv62lN3mRzA" base_Package="_a9ML0H2PEeqkv62lN3mRzA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bSDBgH2PEeqkv62lN3mRzA" base_Element="_bSBzYH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Array xmi:id="_bSDokH2PEeqkv62lN3mRzA" base_Element="_bSCacH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_bSSSEH2PEeqkv62lN3mRzA" base_Element="_bSQc4H2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_bSVVYH2PEeqkv62lN3mRzA" base_Element="_bSUHQH2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_bSY_wH2PEeqkv62lN3mRzA" base_Element="_bSXxoX2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bSbcAH2PEeqkv62lN3mRzA" base_Element="_bSaN4H2PEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_bSiJsH2PEeqkv62lN3mRzA" base_Element="_bSftcH2PEeqkv62lN3mRzA"/>
+</xmi:XMI>

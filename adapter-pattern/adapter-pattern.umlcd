@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_FQgSYH2OEeqkv62lN3mRzA">
+  <modelElement href="adapter-pattern.uml#_GAm5oH2OEeqkv62lN3mRzA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Gt4PUH2OEeqkv62lN3mRzA" sourceAnchor="67.0,0.0" targetAnchor="54.0,86.0" dashed="true" superClass="_GuGRwH2OEeqkv62lN3mRzA" subClass="_GsXMYH2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GIax0H2OEeqkv62lN3mRzA"/>
+    <bendpoints xmi:id="_PHmTUH2OEeqkv62lN3mRzA" sourceY="-182" targetX="254" targetY="28"/>
+    <bendpoints xmi:id="_PHmTUX2OEeqkv62lN3mRzA" sourceX="-254" sourceY="-182" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GuiWoH2OEeqkv62lN3mRzA" sourceAnchor="0.0,36.0" targetAnchor="1.0,86.0" dashed="true" superClass="_Gubo8H2OEeqkv62lN3mRzA" subClass="_GulZ8H2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GIgRYH2OEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_M6xPYH2OEeqkv62lN3mRzA" position="-106.0,-3.0"/>
+    <bendpoints xmi:id="_PHm6Yn2OEeqkv62lN3mRzA" sourceX="-410" targetY="178"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_GuvyAH2OEeqkv62lN3mRzA" sourceAnchor="40.0,0.0" targetAnchor="56.0,86.0" target="_Gubo8H2OEeqkv62lN3mRzA" source="_Gu_poH2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GI9kYH2OEeqkv62lN3mRzA"/>
+    <stereotypes xmi:id="_Gu3GwH2OEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="adapter-pattern.uml#_GJAAoH2OEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Gu0qgH2OEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_HBZBMH2OEeqkv62lN3mRzA" position="-88.0,-21.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Gu14oH2OEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="adapter-pattern.uml#_GI9kYX2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_HBYaIn2OEeqkv62lN3mRzA" position="41.0,-42.0"/>
+      <visibility xmi:id="_Gu6xIX2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_Gu6xIH2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Gu2fsH2OEeqkv62lN3mRzA" aggregationKind="NONE" name="turkey" navigable="true">
+      <modelElement href="adapter-pattern.uml#_GIitoH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_HBZoQH2OEeqkv62lN3mRzA" position="-23.5,6.0"/>
+      <visibility xmi:id="_Gu7YMX2OEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_Gu7YMH2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Guy1UH2OEeqkv62lN3mRzA" sourceAnchor="159.0,0.0" targetAnchor="54.0,86.0" dashed="true" superClass="_GuGRwH2OEeqkv62lN3mRzA" subClass="_Gu_poH2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GIcnAH2OEeqkv62lN3mRzA"/>
+    <bendpoints xmi:id="_PHm6YH2OEeqkv62lN3mRzA" sourceY="-27" targetX="-255" targetY="28"/>
+    <bendpoints xmi:id="_PHm6YX2OEeqkv62lN3mRzA" sourceX="255" sourceY="-27" targetY="28"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GsXMYH2OEeqkv62lN3mRzA" name="MallardDuck" generalizations="_Gt4PUH2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GB7vUH2OEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_GsXzcH2OEeqkv62lN3mRzA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_GsXzcX2OEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_GsXzcn2OEeqkv62lN3mRzA" name="quack">
+      <modelElement href="adapter-pattern.uml#_GB9kgH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCNYkH2OEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_GsXzc32OEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="adapter-pattern.uml#_GB-yoH2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GsXzdH2OEeqkv62lN3mRzA" name="Annotations">
+        <modelElement href="adapter-pattern.uml#_GCAn0H2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_GsXzdX2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_GsXzdn2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_GsXzd32OEeqkv62lN3mRzA" name="fly">
+      <modelElement href="adapter-pattern.uml#_GCGucH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCOmsH2OEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_GsXzeH2OEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="adapter-pattern.uml#_GCH8kH2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GsXzeX2OEeqkv62lN3mRzA" name="Annotations">
+        <modelElement href="adapter-pattern.uml#_GCJKsH2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_GsXzen2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_GsXze32OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_GuGRwH2OEeqkv62lN3mRzA" name="Duck" subclassedBy="_Gt4PUH2OEeqkv62lN3mRzA _Guy1UH2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GBlKAH2OEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_GuGRwX2OEeqkv62lN3mRzA" position="-211.0,-266.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_GuGRwn2OEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_GuGRw32OEeqkv62lN3mRzA" name="quack">
+      <modelElement href="adapter-pattern.uml#_GBtF0H2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCPNwH2OEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_GuGRxH2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_GuGRxX2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_GuGRxn2OEeqkv62lN3mRzA" name="fly">
+      <modelElement href="adapter-pattern.uml#_GBviEH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCPNwX2OEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_GuGRx32OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_GuGRyH2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Gu_poH2OEeqkv62lN3mRzA" name="TurkeyAdapter" associationsOut="_GuvyAH2OEeqkv62lN3mRzA" generalizations="_Guy1UH2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GCOqQH2OEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_Gu_poX2OEeqkv62lN3mRzA" position="-571.0,-125.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Gu_pon2OEeqkv62lN3mRzA" label="+"/>
+    <attributes xmi:id="_Gu_po32OEeqkv62lN3mRzA" name="turkey">
+      <modelElement href="adapter-pattern.uml#_GIitoH2OEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_Gu_ppH2OEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="adapter-pattern.uml#_GIki0H2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_Gu_ppX2OEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_Gu_ppn2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_Gu_pp32OEeqkv62lN3mRzA" name="Turkey">
+        <modelElement href="adapter-pattern.uml#_GCLm8H2OEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Gu_pqH2OEeqkv62lN3mRzA" name="quack">
+      <modelElement href="adapter-pattern.uml#_GCSUoH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCPNwn2OEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_Gu_pqX2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_Gu_pqn2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Gu_pq32OEeqkv62lN3mRzA" name="fly">
+      <modelElement href="adapter-pattern.uml#_GCTiwH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCP00H2OEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_Gu_prH2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_Gu_prX2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Gu_prn2OEeqkv62lN3mRzA" name="TurkeyAdapter">
+      <modelElement href="adapter-pattern.uml#_GId1IH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCP00X2OEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_Gu_pr32OEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_Gu_psH2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_Gu_psX2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Gu_psn2OEeqkv62lN3mRzA">
+        <modelElement href="adapter-pattern.uml#_GIecMn2OEeqkv62lN3mRzA"/>
+        <type xmi:id="_Gu_ps32OEeqkv62lN3mRzA" name="TurkeyAdapter">
+          <modelElement href="adapter-pattern.uml#_GCOqQH2OEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Gu_ptH2OEeqkv62lN3mRzA" name="turkey">
+        <modelElement href="adapter-pattern.uml#_GId1IX2OEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_Gu_ptX2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_Gu_ptn2OEeqkv62lN3mRzA" name="Turkey">
+          <modelElement href="adapter-pattern.uml#_GCLm8H2OEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GtrbAH2OEeqkv62lN3mRzA" name="DuckTestDrive">
+    <modelElement href="adapter-pattern.uml#_GBwwMH2OEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_GtrbAX2OEeqkv62lN3mRzA" position="0.0,173.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_GtrbAn2OEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_GtrbA32OEeqkv62lN3mRzA" name="main" staticOperation="true">
+      <modelElement href="adapter-pattern.uml#_GB3d4H2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCP00n2OEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_GtrbBH2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_GtrbBX2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GtrbBn2OEeqkv62lN3mRzA" name="args">
+        <modelElement href="adapter-pattern.uml#_GB3d4X2OEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_GtrbB32OEeqkv62lN3mRzA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_GtrbCH2OEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GtrbCX2OEeqkv62lN3mRzA" name="testDuck" staticOperation="true">
+      <modelElement href="adapter-pattern.uml#_GITdEH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCQb4H2OEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_GtrbCn2OEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_GtrbC32OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GtrbDH2OEeqkv62lN3mRzA" name="duck">
+        <modelElement href="adapter-pattern.uml#_GIUEIH2OEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_GtrbDX2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_GtsCEH2OEeqkv62lN3mRzA" name="Duck">
+          <modelElement href="adapter-pattern.uml#_GBlKAH2OEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GulZ8H2OEeqkv62lN3mRzA" name="WildTurkey" generalizations="_GuiWoH2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GCYbQH2OEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_GumBAH2OEeqkv62lN3mRzA" position="-176.0,-38.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_GumBAX2OEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_GumBAn2OEeqkv62lN3mRzA" name="gobble">
+      <modelElement href="adapter-pattern.uml#_GCZpYH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCQb432OEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_GumBA32OEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="adapter-pattern.uml#_GCa3gH2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GumBBH2OEeqkv62lN3mRzA" name="Annotations">
+        <modelElement href="adapter-pattern.uml#_GCcFoH2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_GumBBX2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_GumBBn2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_GumBB32OEeqkv62lN3mRzA" name="fly">
+      <modelElement href="adapter-pattern.uml#_GCcssH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCRC8H2OEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_GumBCH2OEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="adapter-pattern.uml#_GCdTwH2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GumBCX2OEeqkv62lN3mRzA" name="Annotations">
+        <modelElement href="adapter-pattern.uml#_GCd60H2OEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_GumBCn2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_GumBC32OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Gubo8H2OEeqkv62lN3mRzA" name="Turkey" associationsIn="_GuvyAH2OEeqkv62lN3mRzA" subclassedBy="_GuiWoH2OEeqkv62lN3mRzA">
+    <modelElement href="adapter-pattern.uml#_GCLm8H2OEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_Gubo8X2OEeqkv62lN3mRzA" position="-587.0,-266.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Gubo8n2OEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_Gubo832OEeqkv62lN3mRzA" name="gobble">
+      <modelElement href="adapter-pattern.uml#_GCM1EH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCQb4X2OEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_Gubo9H2OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_Gubo9X2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Gubo9n2OEeqkv62lN3mRzA" name="fly">
+      <modelElement href="adapter-pattern.uml#_GCNcIH2OEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_OCQb4n2OEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_Gubo932OEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_Gubo-H2OEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

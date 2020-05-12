@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_vMUXkH2PEeqkv62lN3mRzA">
+  <modelElement href="facade-pattern.uml#_vfP6oH2PEeqkv62lN3mRzA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wYWs4H2PEeqkv62lN3mRzA" sourceAnchor="156.0,0.0" targetAnchor="178.0,147.0" target="_wW9lwH2PEeqkv62lN3mRzA" source="_wbgumX2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vjStIH2PEeqkv62lN3mRzA"/>
+    <stereotypes xmi:id="_wbECoH2PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="facade-pattern.uml#_vjT7QH2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wbC0gH2PEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_xOzMsX2PEeqkv62lN3mRzA" position="2.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wbDbkH2PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="facade-pattern.uml#_vjStIX2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xOzMsH2PEeqkv62lN3mRzA" position="-55.0,-42.0"/>
+      <visibility xmi:id="_wbI7JH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbI7I32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wbDbkX2PEeqkv62lN3mRzA" aggregationKind="NONE" name="dvd" navigable="true">
+      <modelElement href="facade-pattern.uml#_vi5EgX2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xOzzwH2PEeqkv62lN3mRzA" position="-36.0,5.0"/>
+      <visibility xmi:id="_wbJiMX2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbJiMH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wZfVUH2PEeqkv62lN3mRzA" sourceAnchor="494.0,0.0" targetAnchor="260.0,128.0" target="_wVnh8H2PEeqkv62lN3mRzA" source="_wbgumX2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vjT7QX2PEeqkv62lN3mRzA"/>
+    <stereotypes xmi:id="_wbECpH2PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="facade-pattern.uml#_vjVJYH2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wbECoX2PEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_xO0a0X2PEeqkv62lN3mRzA" position="-44.0,13.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wbECon2PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="facade-pattern.uml#_vjT7Qn2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO0a0H2PEeqkv62lN3mRzA" position="-16.0,-77.0"/>
+      <visibility xmi:id="_wbJiNH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbJiM32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wbECo32PEeqkv62lN3mRzA" aggregationKind="NONE" name="cd" navigable="true">
+      <modelElement href="facade-pattern.uml#_vi6SoH2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO1B4H2PEeqkv62lN3mRzA" position="-30.0,35.0"/>
+      <visibility xmi:id="_wbKJQH2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbJiNX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_waHAYH2PEeqkv62lN3mRzA" sourceAnchor="360.0,0.0" targetAnchor="117.0,90.0" target="_wUoDcH2PEeqkv62lN3mRzA" source="_wbgumX2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vjXloX2PEeqkv62lN3mRzA"/>
+    <stereotypes xmi:id="_wbEps32PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="facade-pattern.uml#_vjYzwH2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wbEpsH2PEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_xO1o8X2PEeqkv62lN3mRzA" position="2.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wbEpsX2PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="facade-pattern.uml#_vjXlon2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO1o8H2PEeqkv62lN3mRzA" position="2.0,-75.0"/>
+      <visibility xmi:id="_wbKJQ32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbKJQn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wbEpsn2PEeqkv62lN3mRzA" aggregationKind="NONE" name="screen" navigable="true">
+      <modelElement href="facade-pattern.uml#_vi9V8H2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO2QAH2PEeqkv62lN3mRzA" position="2.0,33.0"/>
+      <visibility xmi:id="_wbKwUH2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbKJRH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_waurcH2PEeqkv62lN3mRzA" sourceAnchor="580.0,0.0" targetAnchor="0.0,102.0" target="_wlYcQH2PEeqkv62lN3mRzA" source="_wbgumX2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vjPCwH2PEeqkv62lN3mRzA"/>
+    <bendpoints xmi:id="_B68Z4H2QEeqkv62lN3mRzA" sourceY="-125" targetX="-198"/>
+    <stereotypes xmi:id="_wbI7In2PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="facade-pattern.uml#_vjQQ4H2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wbIUEH2PEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_xO23EX2PEeqkv62lN3mRzA" position="57.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wbI7IH2PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="facade-pattern.uml#_vjPCwX2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO23EH2PEeqkv62lN3mRzA" position="5.0,-172.0"/>
+      <visibility xmi:id="_wbLXYX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbLXYH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wbI7IX2PEeqkv62lN3mRzA" aggregationKind="NONE" name="amp" navigable="true">
+      <modelElement href="facade-pattern.uml#_vi3PUH2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO3eIH2PEeqkv62lN3mRzA" position="-55.0,5.0"/>
+      <visibility xmi:id="_wbL-cX2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbL-cH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wbOasH2PEeqkv62lN3mRzA" sourceAnchor="0.0,83.0" targetAnchor="94.0,109.0" target="_wsslMH2PEeqkv62lN3mRzA" source="_wbgumX2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vjQ38H2PEeqkv62lN3mRzA"/>
+    <bendpoints xmi:id="_B68Z4X2QEeqkv62lN3mRzA" sourceX="-37" targetY="340"/>
+    <stereotypes xmi:id="_wbOasX2PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="facade-pattern.uml#_vjSGEH2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wbOasn2PEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_xO4sQH2PEeqkv62lN3mRzA" position="-43.99999999999996,-158.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wbOas32PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="facade-pattern.uml#_vjQ38X2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO4FMH2PEeqkv62lN3mRzA" position="-36.0,-82.0"/>
+      <visibility xmi:id="_wbOatH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbOatX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wbOatn2PEeqkv62lN3mRzA" aggregationKind="NONE" name="tuner" navigable="true">
+      <modelElement href="facade-pattern.uml#_vi4dcH2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO4sQX2PEeqkv62lN3mRzA" position="-44.00000000000007,34.0"/>
+      <visibility xmi:id="_wbOat32PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbOauH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wbZZ0H2PEeqkv62lN3mRzA" sourceAnchor="1047.0,0.0" targetAnchor="331.0,109.0" target="_wikY0H2PEeqkv62lN3mRzA" source="_wbgumX2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vjVJYX2PEeqkv62lN3mRzA"/>
+    <stereotypes xmi:id="_wbZZ0X2PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="facade-pattern.uml#_vjW-kH2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wbZZ0n2PEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_xO56YH2PEeqkv62lN3mRzA" position="2.0,-1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wbZZ032PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="facade-pattern.uml#_vjVJYn2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO5TUH2PEeqkv62lN3mRzA" position="2.0,-72.0"/>
+      <visibility xmi:id="_wbZZ1H2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbZZ1X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wbZZ1n2PEeqkv62lN3mRzA" aggregationKind="NONE" name="projector" navigable="true">
+      <modelElement href="facade-pattern.uml#_vi65sX2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO6hcH2PEeqkv62lN3mRzA" position="2.0,30.0"/>
+      <visibility xmi:id="_wbZZ132PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbZZ2H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wbaA4H2PEeqkv62lN3mRzA" sourceAnchor="0.0,113.0" targetAnchor="0.0,45.0" target="_wpPokH2PEeqkv62lN3mRzA" source="_wbgumX2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vjW-kX2PEeqkv62lN3mRzA"/>
+    <bendpoints xmi:id="_B68Z4n2QEeqkv62lN3mRzA" sourceX="-146" targetX="-45" targetY="543"/>
+    <bendpoints xmi:id="_B68Z432QEeqkv62lN3mRzA" sourceX="-146" sourceY="-543" targetX="-45"/>
+    <stereotypes xmi:id="_wbaA4X2PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="facade-pattern.uml#_vjXloH2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wbaA4n2PEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_xO7IgH2PEeqkv62lN3mRzA" position="-44.000000000000085,16.000000000000114"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wbaA432PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="facade-pattern.uml#_vjW-kn2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO6hcX2PEeqkv62lN3mRzA" position="-105.0,-42.0"/>
+      <visibility xmi:id="_wbaA5H2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbaA5X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wbaA5n2PEeqkv62lN3mRzA" aggregationKind="NONE" name="lights" navigable="true">
+      <modelElement href="facade-pattern.uml#_vi8H0H2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO7vkH2PEeqkv62lN3mRzA" position="-44.00000000000007,2.0"/>
+      <visibility xmi:id="_wbaA532PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbaA6H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wbgukH2PEeqkv62lN3mRzA" sourceAnchor="550.0,0.0" targetAnchor="0.0,54.0" target="_wg0FUH2PEeqkv62lN3mRzA" source="_wbgumX2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vjYzwX2PEeqkv62lN3mRzA"/>
+    <bendpoints xmi:id="_B69A8H2QEeqkv62lN3mRzA" sourceY="-427" targetX="-177"/>
+    <stereotypes xmi:id="_wbgukX2PEeqkv62lN3mRzA" name="Reference">
+      <modelElement href="facade-pattern.uml#_vjZa0H2PEeqkv62lN3mRzA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wbgukn2PEeqkv62lN3mRzA" text="">
+      <visualProperties xmi:id="_xO8WoX2PEeqkv62lN3mRzA" position="41.0,1.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wbguk32PEeqkv62lN3mRzA" aggregationKind="NONE" name="">
+      <modelElement href="facade-pattern.uml#_vjYzwn2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO8WoH2PEeqkv62lN3mRzA" position="2.0,-76.86363636363637"/>
+      <visibility xmi:id="_wbgulH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbgulX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wbguln2PEeqkv62lN3mRzA" aggregationKind="NONE" name="popper" navigable="true">
+      <modelElement href="facade-pattern.uml#_vi99AH2PEeqkv62lN3mRzA"/>
+      <visualProperties xmi:id="_xO89sH2PEeqkv62lN3mRzA" position="-83.75,-42.5"/>
+      <visibility xmi:id="_wbgul32PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbgumH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wbgumX2PEeqkv62lN3mRzA" name="HomeTheaterFacade" associationsOut="_wYWs4H2PEeqkv62lN3mRzA _wZfVUH2PEeqkv62lN3mRzA _waHAYH2PEeqkv62lN3mRzA _waurcH2PEeqkv62lN3mRzA _wbOasH2PEeqkv62lN3mRzA _wbZZ0H2PEeqkv62lN3mRzA _wbaA4H2PEeqkv62lN3mRzA _wbgukH2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vf9FQH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wbgumn2PEeqkv62lN3mRzA" position="185.0,943.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wbgum32PEeqkv62lN3mRzA" label="+"/>
+    <attributes xmi:id="_wbgunH2PEeqkv62lN3mRzA" name="amp">
+      <modelElement href="facade-pattern.uml#_vi3PUH2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_wbgunX2PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="facade-pattern.uml#_vi32YH2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_wbgunn2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbgun32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_wbguoH2PEeqkv62lN3mRzA" name="Amplifier">
+        <modelElement href="facade-pattern.uml#_vgTDgH2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wbguoX2PEeqkv62lN3mRzA" name="tuner">
+      <modelElement href="facade-pattern.uml#_vi4dcH2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_wbguon2PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="facade-pattern.uml#_vi5EgH2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_wbguo32PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbgupH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_wbgupX2PEeqkv62lN3mRzA" name="Tuner">
+        <modelElement href="facade-pattern.uml#_vgcNcH2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wbgupn2PEeqkv62lN3mRzA" name="dvd">
+      <modelElement href="facade-pattern.uml#_vi5EgX2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_wbgup32PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="facade-pattern.uml#_vi5rkH2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_wbguqH2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbguqX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_wbguqn2PEeqkv62lN3mRzA" name="DvdPlayer">
+        <modelElement href="facade-pattern.uml#_vf4MwH2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wbguq32PEeqkv62lN3mRzA" name="cd">
+      <modelElement href="facade-pattern.uml#_vi6SoH2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_wbgurH2PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="facade-pattern.uml#_vi65sH2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_wbgurX2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbgurn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_wbgur32PEeqkv62lN3mRzA" name="CdPlayer">
+        <modelElement href="facade-pattern.uml#_vf0iYH2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wbgusH2PEeqkv62lN3mRzA" name="projector">
+      <modelElement href="facade-pattern.uml#_vi65sX2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_wbgusX2PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="facade-pattern.uml#_vi7gwH2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_wbgusn2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbgus32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_wbhVoH2PEeqkv62lN3mRzA" name="Projector">
+        <modelElement href="facade-pattern.uml#_vgQAMH2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wbhVoX2PEeqkv62lN3mRzA" name="lights">
+      <modelElement href="facade-pattern.uml#_vi8H0H2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_wbhVon2PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="facade-pattern.uml#_vi8u4H2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_wbhVo32PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbhVpH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_wbhVpX2PEeqkv62lN3mRzA" name="TheaterLights">
+        <modelElement href="facade-pattern.uml#_vgZKIH2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wbhVpn2PEeqkv62lN3mRzA" name="screen">
+      <modelElement href="facade-pattern.uml#_vi9V8H2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_wbhVp32PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="facade-pattern.uml#_vi9V8X2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_wbhVqH2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbhVqX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_wbhVqn2PEeqkv62lN3mRzA" name="Screen">
+        <modelElement href="facade-pattern.uml#_vfvC0H2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wbhVq32PEeqkv62lN3mRzA" name="popper">
+      <modelElement href="facade-pattern.uml#_vi99AH2PEeqkv62lN3mRzA"/>
+      <stereotypes xmi:id="_wbhVrH2PEeqkv62lN3mRzA" name="LegacyStyledElement">
+        <modelElement href="facade-pattern.uml#_vi99AX2PEeqkv62lN3mRzA"/>
+      </stereotypes>
+      <visibility xmi:id="_wbhVrX2PEeqkv62lN3mRzA" label="~"/>
+      <cardinality xmi:id="_wbhVrn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <type xmi:id="_wbhVr32PEeqkv62lN3mRzA" name="PopcornPopper">
+        <modelElement href="facade-pattern.uml#_vgMV0H2PEeqkv62lN3mRzA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wbhVsH2PEeqkv62lN3mRzA" name="watchMovie">
+      <modelElement href="facade-pattern.uml#_vgAvoH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wbhVsX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbhVsn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wbhVs32PEeqkv62lN3mRzA" name="movie">
+        <modelElement href="facade-pattern.uml#_vgBWsH2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhVtH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhVtX2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wbhVtn2PEeqkv62lN3mRzA" name="endMovie">
+      <modelElement href="facade-pattern.uml#_vgBWsX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wbhVt32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbhVuH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wbhVuX2PEeqkv62lN3mRzA" name="listenToCd">
+      <modelElement href="facade-pattern.uml#_vgB9wH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wbhVun2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbhVu32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wbhVvH2PEeqkv62lN3mRzA" name="cdTitle">
+        <modelElement href="facade-pattern.uml#_vgB9wX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhVvX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhVvn2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wbhVv32PEeqkv62lN3mRzA" name="endCd">
+      <modelElement href="facade-pattern.uml#_vgCk0H2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wbhVwH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbhVwX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wbhVwn2PEeqkv62lN3mRzA" name="listenToRadio">
+      <modelElement href="facade-pattern.uml#_vgCk0X2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wbhVw32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbhVxH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wbhVxX2PEeqkv62lN3mRzA" name="frequency">
+        <modelElement href="facade-pattern.uml#_vgCk0n2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhVxn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhVx32PEeqkv62lN3mRzA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wbhVyH2PEeqkv62lN3mRzA" name="endRadio">
+      <modelElement href="facade-pattern.uml#_vgDL4H2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wbhVyX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbhVyn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wbhVy32PEeqkv62lN3mRzA" name="HomeTheaterFacade">
+      <modelElement href="facade-pattern.uml#_virpIH2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wbhVzH2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wbhVzX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wbhVzn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wbhVz32PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_viteUn2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wbhV0H2PEeqkv62lN3mRzA" name="HomeTheaterFacade">
+          <modelElement href="facade-pattern.uml#_vf9FQH2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wbhV0X2PEeqkv62lN3mRzA" name="amp">
+        <modelElement href="facade-pattern.uml#_visQMH2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhV0n2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhV032PEeqkv62lN3mRzA" name="Amplifier">
+          <modelElement href="facade-pattern.uml#_vgTDgH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wbhV1H2PEeqkv62lN3mRzA" name="tuner">
+        <modelElement href="facade-pattern.uml#_visQMX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhV1X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhV1n2PEeqkv62lN3mRzA" name="Tuner">
+          <modelElement href="facade-pattern.uml#_vgcNcH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wbhV132PEeqkv62lN3mRzA" name="dvd">
+        <modelElement href="facade-pattern.uml#_visQMn2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhV2H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhV2X2PEeqkv62lN3mRzA" name="DvdPlayer">
+          <modelElement href="facade-pattern.uml#_vf4MwH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wbhV2n2PEeqkv62lN3mRzA" name="cd">
+        <modelElement href="facade-pattern.uml#_vis3QH2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhV232PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhV3H2PEeqkv62lN3mRzA" name="CdPlayer">
+          <modelElement href="facade-pattern.uml#_vf0iYH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wbhV3X2PEeqkv62lN3mRzA" name="projector">
+        <modelElement href="facade-pattern.uml#_vis3QX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhV3n2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhV332PEeqkv62lN3mRzA" name="Projector">
+          <modelElement href="facade-pattern.uml#_vgQAMH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wbhV4H2PEeqkv62lN3mRzA" name="screen">
+        <modelElement href="facade-pattern.uml#_vis3Qn2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhV4X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhV4n2PEeqkv62lN3mRzA" name="Screen">
+          <modelElement href="facade-pattern.uml#_vfvC0H2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wbhV432PEeqkv62lN3mRzA" name="lights">
+        <modelElement href="facade-pattern.uml#_vis3Q32PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhV5H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhV5X2PEeqkv62lN3mRzA" name="TheaterLights">
+          <modelElement href="facade-pattern.uml#_vgZKIH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wbhV5n2PEeqkv62lN3mRzA" name="popper">
+        <modelElement href="facade-pattern.uml#_vis3RH2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wbhV532PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wbhV6H2PEeqkv62lN3mRzA" name="PopcornPopper">
+          <modelElement href="facade-pattern.uml#_vgMV0H2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wdK7cH2PEeqkv62lN3mRzA" name="HomeTheaterTestDrive">
+    <modelElement href="facade-pattern.uml#_vgKgoH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wdK7cX2PEeqkv62lN3mRzA" position="-359.0,1494.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wdK7cn2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wdK7c32PEeqkv62lN3mRzA" name="main" staticOperation="true">
+      <modelElement href="facade-pattern.uml#_vgLuwH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wdK7dH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wdK7dX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wdK7dn2PEeqkv62lN3mRzA" name="args">
+        <modelElement href="facade-pattern.uml#_vgLuwX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wdK7d32PEeqkv62lN3mRzA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_wdK7eH2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wlYcQH2PEeqkv62lN3mRzA" name="Amplifier" associationsIn="_waurcH2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vgTDgH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wlYcQX2PEeqkv62lN3mRzA" position="963.0,716.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wlYcQn2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wlYcQ32PEeqkv62lN3mRzA" name="Amplifier">
+      <modelElement href="facade-pattern.uml#_vgURoH2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wlYcRH2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wlYcRX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcRn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wlYcR32PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_vgU4sH2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wlYcSH2PEeqkv62lN3mRzA" name="Amplifier">
+          <modelElement href="facade-pattern.uml#_vgTDgH2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wlYcSX2PEeqkv62lN3mRzA" name="string">
+        <modelElement href="facade-pattern.uml#_vgURoX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wlYcSn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wlYcS32PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wlYcTH2PEeqkv62lN3mRzA" name="on">
+      <modelElement href="facade-pattern.uml#_vgU4sX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wlYcTX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcTn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wlYcT32PEeqkv62lN3mRzA" name="setSurroundSound">
+      <modelElement href="facade-pattern.uml#_vgVfwH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wlYcUH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcUX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wlYcUn2PEeqkv62lN3mRzA" name="setVolume">
+      <modelElement href="facade-pattern.uml#_vgWG0H2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wlYcU32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcVH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wlYcVX2PEeqkv62lN3mRzA" name="i">
+        <modelElement href="facade-pattern.uml#_vgWG0X2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wlYcVn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wlYcV32PEeqkv62lN3mRzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wlYcWH2PEeqkv62lN3mRzA" name="off">
+      <modelElement href="facade-pattern.uml#_vgWG0n2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wlYcWX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcWn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wlYcW32PEeqkv62lN3mRzA" name="setStereoSound">
+      <modelElement href="facade-pattern.uml#_vgWt4H2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wlYcXH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcXX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wlYcXn2PEeqkv62lN3mRzA" name="setDvd">
+      <modelElement href="facade-pattern.uml#_vixIsH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wlYcX32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcYH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wlYcYX2PEeqkv62lN3mRzA" name="dvd">
+        <modelElement href="facade-pattern.uml#_vixIsX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wlYcYn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wlYcY32PEeqkv62lN3mRzA" name="DvdPlayer">
+          <modelElement href="facade-pattern.uml#_vf4MwH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wlYcZH2PEeqkv62lN3mRzA" name="setCd">
+      <modelElement href="facade-pattern.uml#_vixvwH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wlYcZX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcZn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wlYcZ32PEeqkv62lN3mRzA" name="cd">
+        <modelElement href="facade-pattern.uml#_vixvwX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wlYcaH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wlYcaX2PEeqkv62lN3mRzA" name="CdPlayer">
+          <modelElement href="facade-pattern.uml#_vf0iYH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wlYcan2PEeqkv62lN3mRzA" name="setTuner">
+      <modelElement href="facade-pattern.uml#_viyW0H2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wlYca32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wlYcbH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wlYcbX2PEeqkv62lN3mRzA" name="tuner">
+        <modelElement href="facade-pattern.uml#_viyW0X2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wlYcbn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wlYcb32PEeqkv62lN3mRzA" name="Tuner">
+          <modelElement href="facade-pattern.uml#_vgcNcH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wW9lwH2PEeqkv62lN3mRzA" name="DvdPlayer" associationsIn="_wYWs4H2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vf4MwH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wW9lwX2PEeqkv62lN3mRzA" position="163.0,739.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wW9lwn2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wW9lw32PEeqkv62lN3mRzA" name="play">
+      <modelElement href="facade-pattern.uml#_vf6pAH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wW9lxH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wW9lxX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wW9lxn2PEeqkv62lN3mRzA" name="movie">
+        <modelElement href="facade-pattern.uml#_vf6pAX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wW9lx32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wW9lyH2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wW9lyX2PEeqkv62lN3mRzA" name="on">
+      <modelElement href="facade-pattern.uml#_vf6pAn2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wW9lyn2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wW9ly32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wW9lzH2PEeqkv62lN3mRzA" name="stop">
+      <modelElement href="facade-pattern.uml#_vf7QEH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wW9lzX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wW9lzn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wW9lz32PEeqkv62lN3mRzA" name="eject">
+      <modelElement href="facade-pattern.uml#_vf7QEX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wW9l0H2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wW9l0X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wW9l0n2PEeqkv62lN3mRzA" name="off">
+      <modelElement href="facade-pattern.uml#_vf73IH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wW9l032PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wW9l1H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wW9l1X2PEeqkv62lN3mRzA" name="DvdPlayer">
+      <modelElement href="facade-pattern.uml#_vipM4H2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wW9l1n2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wW9l132PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wW9l2H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wW9l2X2PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_vipz8X2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wW9l2n2PEeqkv62lN3mRzA" name="DvdPlayer">
+          <modelElement href="facade-pattern.uml#_vf4MwH2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wW9l232PEeqkv62lN3mRzA" name="string">
+        <modelElement href="facade-pattern.uml#_vipM4X2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wW9l3H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wW9l3X2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wW9l3n2PEeqkv62lN3mRzA" name="amp">
+        <modelElement href="facade-pattern.uml#_vipM4n2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wW9l332PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wW9l4H2PEeqkv62lN3mRzA" name="Amplifier">
+          <modelElement href="facade-pattern.uml#_vgTDgH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wsslMH2PEeqkv62lN3mRzA" name="Tuner" associationsIn="_wbOasH2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vgcNcH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wsslMX2PEeqkv62lN3mRzA" position="54.0,577.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wsslMn2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wsslM32PEeqkv62lN3mRzA" name="on">
+      <modelElement href="facade-pattern.uml#_vgdbkH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wsslNH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wsslNX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wsslNn2PEeqkv62lN3mRzA" name="setFrequency">
+      <modelElement href="facade-pattern.uml#_vgdbkX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wsslN32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wsslOH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wsslOX2PEeqkv62lN3mRzA" name="frequency">
+        <modelElement href="facade-pattern.uml#_vgdbkn2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wsslOn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wsslO32PEeqkv62lN3mRzA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wsslPH2PEeqkv62lN3mRzA" name="off">
+      <modelElement href="facade-pattern.uml#_vgeCoH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wsslPX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wsslPn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wsslP32PEeqkv62lN3mRzA" name="Tuner">
+      <modelElement href="facade-pattern.uml#_vizk8H2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wsslQH2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wsslQX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wsslQn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wsslQ32PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_vizk9X2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wsslRH2PEeqkv62lN3mRzA" name="Tuner">
+          <modelElement href="facade-pattern.uml#_vgcNcH2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wsslRX2PEeqkv62lN3mRzA" name="string">
+        <modelElement href="facade-pattern.uml#_vizk8X2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wsslRn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wsslR32PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wsslSH2PEeqkv62lN3mRzA" name="amp">
+        <modelElement href="facade-pattern.uml#_vizk8n2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wsslSX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wsslSn2PEeqkv62lN3mRzA" name="Amplifier">
+          <modelElement href="facade-pattern.uml#_vgTDgH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wUoDcH2PEeqkv62lN3mRzA" name="Screen" associationsIn="_waHAYH2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vfvC0H2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wUoDcX2PEeqkv62lN3mRzA" position="428.0,585.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wUoDcn2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wUoDc32PEeqkv62lN3mRzA" name="Screen">
+      <modelElement href="facade-pattern.uml#_vfyGIH2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wUoDdH2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wUoDdX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wUoDdn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wUoDd32PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_vfytMn2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wUoDeH2PEeqkv62lN3mRzA" name="Screen">
+          <modelElement href="facade-pattern.uml#_vfvC0H2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wUoDeX2PEeqkv62lN3mRzA" name="string">
+        <modelElement href="facade-pattern.uml#_vfyGIX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wUoDen2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wUoDe32PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wUoDfH2PEeqkv62lN3mRzA" name="down">
+      <modelElement href="facade-pattern.uml#_vfzUQH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wUoDfX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wUoDfn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wUoDf32PEeqkv62lN3mRzA" name="up">
+      <modelElement href="facade-pattern.uml#_vfz7UH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wUoDgH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wUoDgX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wpPokH2PEeqkv62lN3mRzA" name="TheaterLights" associationsIn="_wbaA4H2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vgZKIH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wpPokX2PEeqkv62lN3mRzA" position="84.0,468.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wpPokn2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wpPok32PEeqkv62lN3mRzA" name="TheaterLights">
+      <modelElement href="facade-pattern.uml#_vgaYQH2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wpPolH2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wpPolX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wpPoln2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wpPol32PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_vga_UH2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wpPomH2PEeqkv62lN3mRzA" name="TheaterLights">
+          <modelElement href="facade-pattern.uml#_vgZKIH2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wpPomX2PEeqkv62lN3mRzA" name="string">
+        <modelElement href="facade-pattern.uml#_vgaYQX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wpPomn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wpPom32PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wpPonH2PEeqkv62lN3mRzA" name="dim">
+      <modelElement href="facade-pattern.uml#_vga_UX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wpPonX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wpPonn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wpPon32PEeqkv62lN3mRzA" name="i">
+        <modelElement href="facade-pattern.uml#_vga_Un2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wpPooH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wpPooX2PEeqkv62lN3mRzA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wpPoon2PEeqkv62lN3mRzA" name="on">
+      <modelElement href="facade-pattern.uml#_vgbmYH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wpPoo32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wpPopH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wVnh8H2PEeqkv62lN3mRzA" name="CdPlayer" associationsIn="_wZfVUH2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vf0iYH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wVnh8X2PEeqkv62lN3mRzA" position="419.0,361.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wVnh8n2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wVnh832PEeqkv62lN3mRzA" name="on">
+      <modelElement href="facade-pattern.uml#_vf1wgH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wVnh9H2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wVnh9X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wVnh9n2PEeqkv62lN3mRzA" name="off">
+      <modelElement href="facade-pattern.uml#_vf1wgX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wVnh932PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wVnh-H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wVnh-X2PEeqkv62lN3mRzA" name="play">
+      <modelElement href="facade-pattern.uml#_vf2XkH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wVnh-n2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wVnh-32PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wVnh_H2PEeqkv62lN3mRzA" name="cdTitle">
+        <modelElement href="facade-pattern.uml#_vf2-oH2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wVnh_X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wVnh_n2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wVnh_32PEeqkv62lN3mRzA" name="eject">
+      <modelElement href="facade-pattern.uml#_vf2-oX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wVniAH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wVniAX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wVniAn2PEeqkv62lN3mRzA" name="CdPlayer">
+      <modelElement href="facade-pattern.uml#_vinXsH2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wVniA32PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wVniBH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wVniBX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wVniBn2PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_vin-wn2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wVniB32PEeqkv62lN3mRzA" name="CdPlayer">
+          <modelElement href="facade-pattern.uml#_vf0iYH2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wVniCH2PEeqkv62lN3mRzA" name="string">
+        <modelElement href="facade-pattern.uml#_vinXsX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wVniCX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wVniCn2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wVniC32PEeqkv62lN3mRzA" name="amp">
+        <modelElement href="facade-pattern.uml#_vinXsn2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wVniDH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wVniDX2PEeqkv62lN3mRzA" name="Amplifier">
+          <modelElement href="facade-pattern.uml#_vgTDgH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wikY0H2PEeqkv62lN3mRzA" name="Projector" associationsIn="_wbZZ0H2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vgQAMH2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wikY0X2PEeqkv62lN3mRzA" position="901.0,585.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wikY0n2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wikY032PEeqkv62lN3mRzA" name="on">
+      <modelElement href="facade-pattern.uml#_vgROUH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wikY1H2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wikY1X2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wikY1n2PEeqkv62lN3mRzA" name="wideScreenMode">
+      <modelElement href="facade-pattern.uml#_vgR1YH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wikY132PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wikY2H2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wikY2X2PEeqkv62lN3mRzA" name="off">
+      <modelElement href="facade-pattern.uml#_vgR1YX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wikY2n2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wikY232PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wikY3H2PEeqkv62lN3mRzA" name="Projector">
+      <modelElement href="facade-pattern.uml#_viv6kH2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wikY3X2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wikY3n2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wikY332PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wikY4H2PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_viwhon2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wikY4X2PEeqkv62lN3mRzA" name="Projector">
+          <modelElement href="facade-pattern.uml#_vgQAMH2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wikY4n2PEeqkv62lN3mRzA" name="string">
+        <modelElement href="facade-pattern.uml#_viv6kX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wikY432PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wikY5H2PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wikY5X2PEeqkv62lN3mRzA" name="dvd">
+        <modelElement href="facade-pattern.uml#_viv6kn2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wikY5n2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wikY532PEeqkv62lN3mRzA" name="DvdPlayer">
+          <modelElement href="facade-pattern.uml#_vf4MwH2PEeqkv62lN3mRzA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wg0FUH2PEeqkv62lN3mRzA" name="PopcornPopper" associationsIn="_wbgukH2PEeqkv62lN3mRzA">
+    <modelElement href="facade-pattern.uml#_vgMV0H2PEeqkv62lN3mRzA"/>
+    <visualProperties xmi:id="_wg0FUX2PEeqkv62lN3mRzA" position="912.0,462.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wg0FUn2PEeqkv62lN3mRzA" label="+"/>
+    <operations xmi:id="_wg0FU32PEeqkv62lN3mRzA" name="PopcornPopper">
+      <modelElement href="facade-pattern.uml#_vgOLAH2PEeqkv62lN3mRzA"/>
+      <keywords xmi:id="_wg0FVH2PEeqkv62lN3mRzA" keyword="create"/>
+      <visibility xmi:id="_wg0FVX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wg0FVn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wg0FV32PEeqkv62lN3mRzA">
+        <modelElement href="facade-pattern.uml#_vgOLBH2PEeqkv62lN3mRzA"/>
+        <type xmi:id="_wg0FWH2PEeqkv62lN3mRzA" name="PopcornPopper">
+          <modelElement href="facade-pattern.uml#_vgMV0H2PEeqkv62lN3mRzA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wg0FWX2PEeqkv62lN3mRzA" name="string">
+        <modelElement href="facade-pattern.uml#_vgOLAX2PEeqkv62lN3mRzA"/>
+        <cardinality xmi:id="_wg0FWn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+        <type xmi:id="_wg0FW32PEeqkv62lN3mRzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wg0FXH2PEeqkv62lN3mRzA" name="on">
+      <modelElement href="facade-pattern.uml#_vgOyEH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wg0FXX2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wg0FXn2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wg0FX32PEeqkv62lN3mRzA" name="pop">
+      <modelElement href="facade-pattern.uml#_vgOyEX2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wg0FYH2PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wg0FYX2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wg0FYn2PEeqkv62lN3mRzA" name="off">
+      <modelElement href="facade-pattern.uml#_vgPZIH2PEeqkv62lN3mRzA"/>
+      <visibility xmi:id="_wg0FY32PEeqkv62lN3mRzA" label="+"/>
+      <cardinality xmi:id="_wg0FZH2PEeqkv62lN3mRzA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

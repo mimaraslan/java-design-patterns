@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_FI3ZUH2OEeqkv62lN3mRzA" name="adapter_pattern">
+    <eAnnotations xmi:id="_FweL4H2OEeqkv62lN3mRzA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_FwfaAH2OEeqkv62lN3mRzA" source="codegen">
+        <details xmi:id="_FwfaAX2OEeqkv62lN3mRzA" key="codegenDirectory" value="/adapter-pattern/src"/>
+        <details xmi:id="_GrnlgH2OEeqkv62lN3mRzA" key="AssociatedSourceCode" value="/adapter-pattern/src/com/mimaraslan/duck/Duck.java;881703165/1;/adapter-pattern/src/com/mimaraslan/duck/DuckTestDrive.java;139152427/1;/adapter-pattern/src/com/mimaraslan/duck/MallardDuck.java;278002211/1;/adapter-pattern/src/com/mimaraslan/turkey/Turkey.java;4106302544/1;/adapter-pattern/src/com/mimaraslan/turkey/TurkeyAdapter.java;481735056/1;/adapter-pattern/src/com/mimaraslan/turkey/WildTurkey.java;3691926368/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_GBzzgH2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_GB0akH2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_GB0akX2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_GB1BoH2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_GB1BoX2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_GB1Bon2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_GB1osH2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_GB1osX2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_GB220H2OEeqkv62lN3mRzA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GAmSkH2OEeqkv62lN3mRzA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_GAm5oH2OEeqkv62lN3mRzA" name="mimaraslan">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GAwDkH2OEeqkv62lN3mRzA" name="duck">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_GBlKAH2OEeqkv62lN3mRzA" name="Duck">
+            <ownedOperation xmi:id="_GBtF0H2OEeqkv62lN3mRzA" name="quack"/>
+            <ownedOperation xmi:id="_GBviEH2OEeqkv62lN3mRzA" name="fly"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_GBwwMH2OEeqkv62lN3mRzA" name="DuckTestDrive">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GIxXIH2OEeqkv62lN3mRzA" name="main" specification="_GB3d4H2OEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_GIxXIX2OEeqkv62lN3mRzA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GIxXIn2OEeqkv62lN3mRzA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>MallardDuck duck = new MallardDuck();
+		
+		WildTurkey turkey = new WildTurkey();
+		Duck turkeyAdapter = new TurkeyAdapter(turkey);
+		
+		System.out.println(&quot;The Turkey says...&quot;);
+		turkey.gobble();
+		turkey.fly();
+		
+		System.out.println(&quot;\nThe Duck says...&quot;);
+		testDuck(duck);
+		
+		System.out.println(&quot;\nThe TurkeyAdapter says...&quot;);
+		testDuck(turkeyAdapter);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GI1okH2OEeqkv62lN3mRzA" name="testDuck" specification="_GITdEH2OEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_GI1okX2OEeqkv62lN3mRzA" name="duck" type="_GBlKAH2OEeqkv62lN3mRzA"/>
+              <language>java</language>
+              <body>duck.quack();
+		duck.fly();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_GB3d4H2OEeqkv62lN3mRzA" name="main" isStatic="true" method="_GIxXIH2OEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_GB3d4X2OEeqkv62lN3mRzA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GB4sAH2OEeqkv62lN3mRzA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_GITdEH2OEeqkv62lN3mRzA" name="testDuck" visibility="package" isStatic="true" method="_GI1okH2OEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_GIUEIH2OEeqkv62lN3mRzA" name="duck" type="_GBlKAH2OEeqkv62lN3mRzA"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_GB7vUH2OEeqkv62lN3mRzA" name="MallardDuck">
+            <interfaceRealization xmi:id="_GIax0H2OEeqkv62lN3mRzA" client="_GB7vUH2OEeqkv62lN3mRzA" supplier="_GBlKAH2OEeqkv62lN3mRzA" contract="_GBlKAH2OEeqkv62lN3mRzA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GI2PoH2OEeqkv62lN3mRzA" name="quack" specification="_GB9kgH2OEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Quack&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GI22sH2OEeqkv62lN3mRzA" name="fly" specification="_GCGucH2OEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;I'm flying&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_GB9kgH2OEeqkv62lN3mRzA" name="quack" method="_GI2PoH2OEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_GCGucH2OEeqkv62lN3mRzA" name="fly" method="_GI22sH2OEeqkv62lN3mRzA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_GAzt8H2OEeqkv62lN3mRzA" name="turkey">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_GCLm8H2OEeqkv62lN3mRzA" name="Turkey">
+            <ownedOperation xmi:id="_GCM1EH2OEeqkv62lN3mRzA" name="gobble"/>
+            <ownedOperation xmi:id="_GCNcIH2OEeqkv62lN3mRzA" name="fly"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_GCOqQH2OEeqkv62lN3mRzA" name="TurkeyAdapter">
+            <ownedAttribute xmi:id="_GIitoH2OEeqkv62lN3mRzA" name="turkey" visibility="package" type="_GCLm8H2OEeqkv62lN3mRzA" association="_GI9kYH2OEeqkv62lN3mRzA"/>
+            <interfaceRealization xmi:id="_GIcnAH2OEeqkv62lN3mRzA" client="_GCOqQH2OEeqkv62lN3mRzA" supplier="_GBlKAH2OEeqkv62lN3mRzA" contract="_GBlKAH2OEeqkv62lN3mRzA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GI3dwH2OEeqkv62lN3mRzA" name="TurkeyAdapter" specification="_GId1IH2OEeqkv62lN3mRzA">
+              <ownedParameter xmi:id="_GI3dwX2OEeqkv62lN3mRzA" name="turkey" type="_GCLm8H2OEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_GI3dwn2OEeqkv62lN3mRzA" type="_GCOqQH2OEeqkv62lN3mRzA" direction="return"/>
+              <language>java</language>
+              <body>this.turkey = turkey;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GI4E0H2OEeqkv62lN3mRzA" name="quack" specification="_GCSUoH2OEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>turkey.gobble();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GI4r4H2OEeqkv62lN3mRzA" name="fly" specification="_GCTiwH2OEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>for(int i=0; i &lt; 5; i++) {
+			turkey.fly();
+		}
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_GCSUoH2OEeqkv62lN3mRzA" name="quack" method="_GI4E0H2OEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_GCTiwH2OEeqkv62lN3mRzA" name="fly" method="_GI4r4H2OEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_GId1IH2OEeqkv62lN3mRzA" name="TurkeyAdapter" method="_GI3dwH2OEeqkv62lN3mRzA">
+              <eAnnotations xmi:id="_GIecMH2OEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_GIecMX2OEeqkv62lN3mRzA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_GId1IX2OEeqkv62lN3mRzA" name="turkey" type="_GCLm8H2OEeqkv62lN3mRzA"/>
+              <ownedParameter xmi:id="_GIecMn2OEeqkv62lN3mRzA" type="_GCOqQH2OEeqkv62lN3mRzA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_GCYbQH2OEeqkv62lN3mRzA" name="WildTurkey">
+            <interfaceRealization xmi:id="_GIgRYH2OEeqkv62lN3mRzA" client="_GCYbQH2OEeqkv62lN3mRzA" supplier="_GCLm8H2OEeqkv62lN3mRzA" contract="_GCLm8H2OEeqkv62lN3mRzA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GI5S8H2OEeqkv62lN3mRzA" name="gobble" specification="_GCZpYH2OEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;Gobble gobble&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GI5S8X2OEeqkv62lN3mRzA" name="fly" specification="_GCcssH2OEeqkv62lN3mRzA">
+              <language>java</language>
+              <body>System.out.println(&quot;I'm flying a short distance&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_GCZpYH2OEeqkv62lN3mRzA" name="gobble" method="_GI5S8H2OEeqkv62lN3mRzA"/>
+            <ownedOperation xmi:id="_GCcssH2OEeqkv62lN3mRzA" name="fly" method="_GI5S8X2OEeqkv62lN3mRzA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_GI9kYH2OEeqkv62lN3mRzA" name="" memberEnd="_GI9kYX2OEeqkv62lN3mRzA _GIitoH2OEeqkv62lN3mRzA">
+            <ownedEnd xmi:id="_GI9kYX2OEeqkv62lN3mRzA" name="" type="_GCOqQH2OEeqkv62lN3mRzA" association="_GI9kYH2OEeqkv62lN3mRzA"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_FwkSgH2OEeqkv62lN3mRzA">
+      <eAnnotations xmi:id="_Fwn84H2OEeqkv62lN3mRzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Fwv4sH2OEeqkv62lN3mRzA" base_Package="_FI3ZUH2OEeqkv62lN3mRzA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GB-yoH2OEeqkv62lN3mRzA" base_Element="_GB9kgH2OEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Annotations xmi:id="_GCAn0H2OEeqkv62lN3mRzA" base_Element="_GB9kgH2OEeqkv62lN3mRzA">
+    <annotations xmi:id="_GCGHYH2OEeqkv62lN3mRzA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GCH8kH2OEeqkv62lN3mRzA" base_Element="_GCGucH2OEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Annotations xmi:id="_GCJKsH2OEeqkv62lN3mRzA" base_Element="_GCGucH2OEeqkv62lN3mRzA">
+    <annotations xmi:id="_GCJKsX2OEeqkv62lN3mRzA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GCa3gH2OEeqkv62lN3mRzA" base_Element="_GCZpYH2OEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Annotations xmi:id="_GCcFoH2OEeqkv62lN3mRzA" base_Element="_GCZpYH2OEeqkv62lN3mRzA">
+    <annotations xmi:id="_GCcFoX2OEeqkv62lN3mRzA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GCdTwH2OEeqkv62lN3mRzA" base_Element="_GCcssH2OEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Annotations xmi:id="_GCd60H2OEeqkv62lN3mRzA" base_Element="_GCcssH2OEeqkv62lN3mRzA">
+    <annotations xmi:id="_GCeh4H2OEeqkv62lN3mRzA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GIki0H2OEeqkv62lN3mRzA" base_Element="_GIitoH2OEeqkv62lN3mRzA"/>
+  <UMLLabProfile:Reference xmi:id="_GJAAoH2OEeqkv62lN3mRzA" base_Element="_GI9kYH2OEeqkv62lN3mRzA"/>
+</xmi:XMI>
