@@ -17,19 +17,12 @@ public class DJViewServlet extends HttpServlet {
 		getServletContext().setAttribute("beatModel", beatModel);
 	}
 
-	public void doGet(HttpServletRequest request,
-			HttpServletResponse response)
-					throws IOException, ServletException
-	{
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		doPost(request, response);
 	}
 
-	public void doPost(HttpServletRequest request,
-			HttpServletResponse response)
-					throws IOException, ServletException
-	{
-		BeatModel beatModel = 
-				(BeatModel)getServletContext().getAttribute("beatModel");
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+		BeatModel beatModel = (BeatModel) getServletContext().getAttribute("beatModel");
 
 		String bpm = request.getParameter("bpm");
 		if (bpm == null) {
@@ -62,8 +55,7 @@ public class DJViewServlet extends HttpServlet {
 
 		request.setAttribute("beatModel", beatModel);
 
-		RequestDispatcher dispatcher = 
-				request.getRequestDispatcher("/djview.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/djview.jsp");
 		dispatcher.forward(request, response);
 
 	}
